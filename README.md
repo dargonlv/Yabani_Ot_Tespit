@@ -14,7 +14,7 @@
 -  python 3.9
 - spyder x.x
 
-####Python Kütüphaneler
+#### Python Kütüphaneler
 ```python
 import cv2 #opencv
 import socket
@@ -26,7 +26,7 @@ import numpy as
 ```
 
 
-##subprocess Hatası
+## subprocess Hatası
 **Python : FileNotFoundError [WinError 2] The system cannot find the file specified , subprocess.py:1582**
 
 subprocess kütüphanesiyle ilgili  bu tarz bir hata alırsanız cözümü aşşağıdaki linktedir. 
@@ -49,7 +49,7 @@ mycascade = cv2.CascadeClassifier("myhaar.xml") # görüntü verilerimzibu kıs�
 Ayrı olarak Cascade uygulamasını kurup kendi veri.xml'nizi oluştura bilrisiniz uygulamanın kullanımı internette mevcuttur
 
 
-##Raspberry
+## Raspberry
 
 > /raspberry kod/rsperyy_Kod.txt
 
@@ -57,7 +57,7 @@ kodumuzu raspberryde otomatik başlıcak şekilde ayarlamamız gerikiyor.
 
 `<link>` : <https://www.youtube.com/watch?v=5nQ4GcvQac4&list=WL&index=6>
 
-##İp Kamera
+## İp Kamera
 
 ipden alının görüntünün FFmpeg olarak işlenme süreci burada önemli olan kameranızın Height ve Width değerlerinin doğru olması akasi takdirde bozuk görüntü elde etmiş olursunuz .
 Bunu öğrenmenin bir yolu ip kameranızı bir program ile bağlanıp fotoğraf çekip öğrene bilirsiniz.
@@ -82,7 +82,7 @@ ffmpeg_cmd = [FFMPEG_BIN,
 process = sp.Popen(ffmpeg_cmd, stdout=sp.PIPE)
 ```
 
-##Threading
+## Threading
 
 Raspberrye sinay göndermek için kesintisiz sürekli çalışan bir işlem olşturuldu.
 
@@ -116,7 +116,7 @@ t1 = threading.Thread(target=ss, args = (event,))
 t1.start()
 ```
 
-##İletişim
+## İletişim
 
 mail : faihmer0029@gmail.com
 
