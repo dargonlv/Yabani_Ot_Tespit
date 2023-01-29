@@ -24,6 +24,15 @@ import subprocess as sp
 import numpy as 
 
 ```
+#### Malzemeler
+Raspberry pi 4 Model B
+İp kamera (Yoosee YN-8801JW-2MP)
+Router (local bir ağ için)
+Bilgisayar
+
+## İşleyiş
+
+![image](https://user-images.githubusercontent.com/82662177/215326482-fecab8f6-4018-464e-b268-e60a095d77a7.png)
 
 
 ## subprocess Hatası
