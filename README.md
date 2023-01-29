@@ -84,7 +84,7 @@ process = sp.Popen(ffmpeg_cmd, stdout=sp.PIPE)
 
 ## Threading
 
-Raspberrye sinay göndermek için kesintisiz sürekli çalışan bir işlem olşturuldu.
+Raspberrye sinyal göndermek için kesintisiz sürekli çalışan bir işlem olşturuldu.
 
 ```python
     
