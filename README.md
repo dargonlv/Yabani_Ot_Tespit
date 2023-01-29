@@ -15,13 +15,15 @@
 - spyder x.x
 
 ####Python Kütüphaneler
-    import cv2 #opencv
-	import socket
-	import threading
-	from threading import Event
-	import subprocess as sp
-	import numpy as 
+```python
+import cv2 #opencv
+import socket
+import threading
+from threading import Event
+import subprocess as sp
+import numpy as 
 
+```
 
 
 ##subprocess Hatası
@@ -40,7 +42,9 @@ Mavi kalem Veri setimiz
 
 **birlesmis_hali.py**
 
-	mycascade = cv2.CascadeClassifier("myhaar.xml") # görüntü verilerimzibu kısımda
+```python
+mycascade = cv2.CascadeClassifier("myhaar.xml") # görüntü verilerimzibu kısımda
+```
 
 Ayrı olarak Cascade uygulamasını kurup kendi veri.xml'nizi oluştura bilrisiniz uygulamanın kullanımı internette mevcuttur
 
