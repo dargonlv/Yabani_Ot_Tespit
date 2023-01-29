@@ -25,10 +25,10 @@ import numpy as
 
 ```
 #### Malzemeler
-Raspberry pi 4 Model B
-İp kamera (Yoosee YN-8801JW-2MP)
-Router (local bir ağ için)
-Bilgisayar
+- Raspberry pi 4 Model B
+- İp kamera (Yoosee YN-8801JW-2MP)
+- Router (local bir ağ için)
+- Bilgisayar
 
 ## İşleyiş
 
